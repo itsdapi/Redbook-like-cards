@@ -10,6 +10,7 @@
 >"cards":"/Components/community-cards/community-cards-slot-selector/community-cards-slot-selector"<br>
 
 3、好啦！<br>
+4、如果backgroundImage没有接收到参数就自动切换到文字模式（
 
 一些接口
 ----
