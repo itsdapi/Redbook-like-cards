@@ -26,7 +26,8 @@
 |likesCounter|0|
 
 要修改默认值的在comunity-cards-slot-selector.js里面改<br>
-单位一般是rpx<br><br>
+单位一般是rpx<br>
+因为我还没做到和后端对接的地方 所以很多地方仅仅只是实现了前端展示逻辑（doge）<br><br>
 图中瀑布流不在本项目中 这里推荐另一篇文章<br>
 [小程序瀑布流的实践](https://segmentfault.com/a/1190000022415428)
 
