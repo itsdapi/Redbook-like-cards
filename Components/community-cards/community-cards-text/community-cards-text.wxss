@@ -1,0 +1,78 @@
+/* Component/cards/communityCards/communityCards.wxss */
+.cardsBox {
+	position: relative;
+	margin-top: 0 !important;
+	background-color: white;
+	box-shadow: 0rpx 40rpx 40rpx 0rpx rgba(207, 193, 178, 0.589);/* x偏移量 | y偏移量 | 阴影模糊半径 | 阴影扩散半径 | 阴影颜色 */
+	border-radius: 40rpx;
+	width: 340rpx;
+}
+
+.image {
+   	width: inherit;
+	border-radius: 40rpx 40rpx 0rpx 0rpx;
+}
+
+.BottomLeft {
+	width: 70%;
+	padding-left: 23rpx;
+	padding-bottom: 15rpx;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.BottomRight {
+	width: auto;
+	padding-right: 20rpx;
+	padding-bottom: 23rpx;
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.communityCards__title {
+	font-size: 36rpx;
+	padding: 30rpx;
+	width: 100%;
+	text-align: center;
+}
+
+.communityCards__userinfo {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-top: 3rpx;
+}
+
+.communityCards__userinfo__username {
+	font-size: 23rpx;
+	font-weight: 300;
+	overflow: hidden;
+	height: 32rpx;
+}
+
+.communityCards__userinfo__headshot {
+	height: 40rpx;
+	width: 40rpx;
+	border-radius: 50%; 
+	margin-right: 10rpx;
+}
+
+.communityCards__likes {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.communityCards__likes__number {
+	font-size: 25rpx;
+	font-weight: bold;
+}
+
+.communityCards__likes__heart {
+	height: 30rpx;
+	width: 30rpx;
+}

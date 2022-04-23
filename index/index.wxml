@@ -1,0 +1,35 @@
+<view style="display: flex;justify-content: center;flex-direction: column;">
+	<cards
+		backgroundImage="/images/cat01.jpg"
+		title="这个是标题捏"
+		userinfo_username="然后这是用户名捏"
+		userinfo_headshot="/images/cat02.jpg"
+		likesCounter="999"
+	></cards>
+	<cards
+		title="更多接口在selector里面看"
+		userinfo_username="默认值也在那里改"
+		userinfo_headshot="/images/cat02.jpg"
+		likesCounter="92"
+	></cards>
+	<cards
+		backgroundImage="/images/cat02.jpg"
+		title="标题最多14个字 换行一次"
+		userinfo_username="用户名不换行 9字"
+		userinfo_headshot="/images/cat02.jpg"
+		likesCounter="333"
+	></cards>
+	<cards
+		title="不传入图片的话就是文字模式"
+		userinfo_username="用户名不换行 9字"
+		userinfo_headshot="/images/cat02.jpg"
+		likesCounter="97"
+	></cards>
+	<cards
+		backgroundImage="/images/cat03.jpg"
+		title="瀑布流布局就暂时不带了"
+		userinfo_username="毕竟是copy别人的"
+		userinfo_headshot="/images/cat02.jpg"
+		likesCounter="3"
+	></cards>
+</view>

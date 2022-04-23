@@ -1,0 +1,22 @@
+<community-cards-container class="slot-selector">
+	<community-cards-photo 
+	slot="{{isPhoto}}"
+	width="{{width}}"
+	gap="{{gap}}"
+	backgroundImage="{{backgroundImage}}"
+	title="{{title}}"
+	userinfo_username="{{userinfo_username}}"
+	userinfo_headshot="{{userinfo_headshot}}"
+	likesCounter="{{likesCounter}}"
+	></community-cards-photo>
+
+	<community-cards-text 
+	slot="{{isText}}"
+	width="{{width}}"
+	gap="{{gap}}"
+	title="{{title}}"
+	userinfo_username="{{userinfo_username}}"
+	userinfo_headshot="{{userinfo_headshot}}"
+	likesCounter="{{likesCounter}}"
+	></community-cards-text>
+</community-cards-container>

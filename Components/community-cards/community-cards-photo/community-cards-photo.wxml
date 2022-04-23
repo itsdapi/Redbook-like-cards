@@ -1,0 +1,21 @@
+<!--Component/cards/communityCards/communityCards.wxml-->
+<view class="cardsBox" style="height: {{cardsHeight}}rpx; width: {{width}}rpx; margin: {{gap}}rpx;">
+	<image src="{{backgroundImage}}" class="image" mode="widthFix" id="image-id" bindload="handleImageInfo" binderror="handleLoadError"></image>
+	<view class="BottomLeft" id="title-id">
+		<view style="position: relative;">
+			<view class="communityCards__title__box">
+				<text class="communityCards__title">{{title}}</text>
+			</view>
+			<view class="communityCards__userinfo">
+				<image class="communityCards__userinfo__headshot" src="{{userinfo_headshot}}" mode="aspectFit"></image>
+				<view class="communityCards__userinfo__username">{{userinfo_username}}</view>
+			</view>
+		</view>
+	</view>
+	<view class="BottomRight" bindtap="handleLikes">
+		<view class="communityCards__likes">
+			<image class="communityCards__likes__heart" src="{{isLiked ? redHeart : greyHeart}}"></image>
+			<view class="communityCards__likes__number">{{likesCounter}}</view>
+		</view>
+	</view>
+</view>

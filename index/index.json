@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cards":"/Components/community-cards/community-cards-slot-selector/community-cards-slot-selector"
+  }
+}

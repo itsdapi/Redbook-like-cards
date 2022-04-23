@@ -1,0 +1,8 @@
+{
+	"component": true,
+	"usingComponents": {
+		"community-cards-photo":"../community-cards-photo/community-cards-photo",
+		"community-cards-text":"../community-cards-text/community-cards-text",
+		"community-cards-container":"../community-cards-slot-container/community-cards-slot-container"
+	}
+}
