@@ -1,6 +1,7 @@
 类小红书样式卡片
 ====
-<img src="https://github.com/itsdapi/Redbook-like-cards/blob/main/images/preview.jpg" width="300"><br>
+<img src="https://github.com/itsdapi/Redbook-like-cards/blob/main/images/preview.jpg" width="300"><img src="https://github.com/itsdapi/Redbook-like-cards/blob/main/images/preview2.jpeg" width="315">
+
 
 食用方法
 ----
