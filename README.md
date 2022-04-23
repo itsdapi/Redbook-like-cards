@@ -1,6 +1,6 @@
 类小红书样式卡片
 ====
-![image](https://github.com/itsdapi/Redbook-like-cards/edit/main/preview.jpg)
+<img src="https://github.com/itsdapi/Redbook-like-cards/blob/main/images/preview.jpg" width="300"><br>
 
 食用方法
 ----
@@ -24,4 +24,6 @@
 |userinfo_headshot|/images/cat02.jpg|
 |likesCounter|0|
 
-要修改默认值的在comunity-cards-slot-selector.js里面改<br>
+要修改默认值的在comunity-cards-slot-selector.js里面改<br><br>
+图中瀑布流不在本项目中 这里推荐另一篇文章<br>
+[小程序瀑布流的实践](https://segmentfault.com/a/1190000022415428)
