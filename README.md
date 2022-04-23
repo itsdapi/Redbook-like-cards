@@ -27,3 +27,7 @@
 要修改默认值的在comunity-cards-slot-selector.js里面改<br><br>
 图中瀑布流不在本项目中 这里推荐另一篇文章<br>
 [小程序瀑布流的实践](https://segmentfault.com/a/1190000022415428)
+
+代码片段
+----
+[点我](https://developers.weixin.qq.com/s/uqXBsJmO7hyA)
