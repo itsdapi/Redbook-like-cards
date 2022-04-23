@@ -19,15 +19,16 @@
 一些接口
 ----
 
-|名称|默认值|
-|---|---|
-|width|345|
-|gap|20|
-|backgroundImage||
-|title|标题（限14字）|
-|userinfo_username|用户名（限9字）|
-|userinfo_headshot|/images/cat02.jpg|
-|likesCounter|0|
+|名称|类型|默认值|
+|---|----|-----|
+|width|String|345|
+|gap|String|20|
+|backgroundImage|String| |
+|title|String|标题（限14字）|
+|userinfo_username|String|用户名（限9字）|
+|userinfo_headshot|String|/images/cat02.jpg|
+|likesCounter|Number|0|
+
 
 要修改默认值的在comunity-cards-slot-selector.js里面改<br>
 单位一般是rpx<br>
